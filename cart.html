@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cart_page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/cart.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="left">
+                Currency: GBP
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="right">              
+                <div class="register">
+                    <a href="./register.html">Register</a>
+                </div>
+                <div class="sign_in">
+                    <a href="./register.html">Sign in</a>
+                </div>
+                <div class="cart">
+                    <a href="./cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    empty
+                    <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <nav>
+        <div class="logo">
+            <a href="./home.html">
+                <img src="./images/logo.png">
+            </a>
+        </div>
+        <div class="menu_main">
+            <ul>
+                <li>
+                    <a href="">Mens</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="sub_menu">
+                        <div class="sub_menu1">
+                            <h3>Casuals</h3>
+                            <ul>
+                                <li>
+                                    <a href="./categories.html">Jacker</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Hoodies & Sweatshirts</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Polo Shirts</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Sportwear</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Trousers & Chinos</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">T-Shirts</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sub_menu2">
+                            <h3>Formal</h3>
+                            <ul>
+                                <li>
+                                    <a href="./categories.html">Jacker</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Shirts</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Suits</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Trousers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sale">
+                            <h2>Autumn sale!</h2>
+                            <h3>Up to 50% off</h3>
+                    </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">Womens</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <div class="sub_menu">
+                        <div class="sub_menu1">
+                            <h3>Casuals</h3>
+                            <ul>
+                                <li>
+                                    <a href="./categories.html">Jacker</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Hoodies & Sweatshirts</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Polo Shirts</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Sportwear</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Trousers & Chinos</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">T-Shirts</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sub_menu2">
+                            <h3>Formal</h3>
+                            <ul>
+                                <li>
+                                    <a href="./categories.html">Jacker</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Shirts</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Suits</a>
+                                </li>
+                                <li>
+                                    <a href="./categories.html">Trousers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sale">
+                            <h2>Autumn sale!</h2>
+                            <h3>Up to 50% off</h3>
+                    </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">The brand</a>
+                </li>
+                <li>
+                    <a href="">Local Stores</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li>
+                    <a href="">Look book</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li class="input">
+                    <input type="text" name="keyword" placeholder="Search...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="banner">
+            <img src="./images/banner_register.png" width="100%">
+         
+        <div class="title">
+            <h3>Welcome to ave</h3>
+            <h4>Cart</h4>
+        </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="left_title">
+                    Products
+                </div>
+                <div class="right_title">
+                    <div>
+                        Price
+                    </div>
+                    <div>
+                        Quantity
+                    </div>
+                    <div>
+                        Total
+                    </div>
+                </div>
+            </div>
+        <!-- start -->
+        <div class="product">
+            <div class="product_img">
+                <img src="./images/img1.png" height="100px">
+                    <span>Hoddie & Sweatshirts</span>
+            </div>
+            <div class="info">
+                <div class="price">
+                    <i class="fa-solid fa-euro-sign"></i>
+                    55.00
+                </div>
+                <div class="quantity">
+                    <div class="minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="number">
+                        1
+                    </div>
+                    <div class="plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="total">
+                    <i class="fa-solid fa-euro-sign"></i>
+                    110.00
+                </div>
+                <div class="cancel">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+            </div>
+        </div>
+        <!-- end -->
+                <!-- start -->
+                <div class="product">
+                    <div class="product_img">
+                        <img src="./images/img6.png" height="100px">
+                            <span>Hoddie & Sweatshirts</span>
+                    </div>
+                    <div class="info">
+                        <div class="price">
+                            <i class="fa-solid fa-euro-sign"></i>
+                            55.00
+                        </div>
+                        <div class="quantity">
+                            <div class="minus">
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <div class="number">
+                                1
+                            </div>
+                            <div class="plus">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <i class="fa-solid fa-euro-sign"></i>
+                            110.00
+                        </div>
+                        <div class="cancel">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+        
+                    </div>
+                </div>
+                <!-- end -->
+                        <!-- start -->
+        <div class="product">
+            <div class="product_img">
+                <img src="./images/img2.png" height="100px">
+                    <span>Hoddie & Sweatshirts</span>
+            </div>
+            <div class="info">
+                <div class="price">
+                    <i class="fa-solid fa-euro-sign"></i>
+                    55.00
+                </div>
+                <div class="quantity">
+                    <div class="minus">
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="number">
+                        1
+                    </div>
+                    <div class="plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="total">
+                    <i class="fa-solid fa-euro-sign"></i>
+                    110.00
+                </div>
+                <div class="cancel">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+            </div>
+        </div>
+        <!-- end -->
+        <div class="btn">
+            <div class="btn_cart">
+                <button>Continue Shopping</button>
+            </div>
+            <div class="btn_lb">
+                <button>Update Cart</button>
+            </div>
+        </div>
+        <div class="form">
+            <div class="input_coupon">
+                <form action="">
+                    <label for="">Discount Code</label><br>
+                    <input type="text" name="coupon" placeholder="Enter your coupon code">
+                    <button type="submit">Apply coupon</button>
+                </form>
+            </div>
+            <div class="cart_total">
+                <div class="title">Cart Total</div>
+                <div class="sub_total">
+                    <div>Subtotal</div>
+                    <div class="price"><i class="fa-solid fa-euro-sign"></i>454.99</div>
+                </div>
+                <div class="sub_total">
+                    <div>Total</div>
+                    <div class="price"><i class="fa-solid fa-euro-sign"></i>454.99</div>
+                </div>
+                <div class="btn_check">
+                    <button>proceed to checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="content_footer">
+            <div class="item_content">
+                <div class="title">
+                    information
+                </div>
+                <ul>
+                    <li>
+                        <a href="">The brand</a>
+                    </li>
+                    <li>
+                        <a href="">Local stores</a>
+                    </li>
+                    <li>
+                        <a href="">Customer service</a>
+                    </li>
+                    <li>
+                        <a href="">Privacy & cookies</a>
+                    </li>
+                    <li>
+                        <a href="">Site map</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="item_content">
+                <div class="title">
+                    why buy from us
+                </div>
+                <ul>
+                    <li>
+                        <a href="">Shipping & returns</a>
+                    </li>
+                    <li>
+                        <a href="">Secure shopping</a>
+                    </li>
+                    <li>
+                        <a href="">Testtimonials</a>
+                    </li>
+                    <li>
+                        <a href="">Award winning</a>
+                    </li>
+                    <li>
+                        <a href="">Ethical trading</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="item_content">
+                <div class="title">
+                    your account
+                </div>
+                <ul>
+                    <li>
+                        <a href="">Sign in</a>
+                    </li>
+                    <li>
+                        <a href="">Register</a>
+                    </li>
+                    <li>
+                        <a href="">View cart</a>
+                    </li>
+                    <li>
+                        <a href="">View your lookbook</a>
+                    </li>
+                    <li>
+                        <a href="">Track an order</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="item_content">
+                <div class="title">
+                    lookbook
+                </div>
+                <ul>
+                    <li>
+                        <a href="">Lastest posts</a>
+                    </li>
+                    <li>
+                        <a href="">Men's lookbook</a>
+                    </li>
+                    <li>
+                        <a href="">Women's lookbook</a>
+                    </li>
+                    <li>
+                        <a href="">View your lookbook</a>
+                    </li>
+                    <li>
+                        <a href="">Delete your lookbook</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact">
+                <div  class="title">
+                    Contact Details
+                </div>
+                <div>
+                    Head Office: Avenue Fashion,<br>  180-182 Regent Street, London.
+                </div>
+                <div>
+                    Telephone: 0123-456-789  
+                </div>
+                <div>
+                    Email: support@yourwebsite.com
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box_left">
+                <div class="content_box">
+                    <h2>Award Winner</h2>
+                    <h3>Fashion Awards 2016</h3>
+                </div>
+            </div>
+            <div class="box_right">
+                <div class="icon_box">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
